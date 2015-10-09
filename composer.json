@@ -12,6 +12,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
+        "duccio/apns-php": "dev-master",
+        "php-gcm/php-gcm": "1.1.*",
         "bryglen/yii2-apns-gcm": "*",
         "webtoucher/yii2-amqp": "*"
     },
