@@ -1,0 +1,23 @@
+{
+    "name": "gbksoft/yii2-apnsgcm-through-rabbitmq",
+    "description": "yii2 APNs-GCM through RabbitMQ extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","gbksoft","apns","gcm"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "GBKSOFT",
+            "email": "hello@gbksoft.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bryglen/yii2-apns-gcm": "1.0.*",
+        "webtoucher/yii2-amqp": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "gbksoft\\apnsGcm\\": ""
+        }
+    }
+}
