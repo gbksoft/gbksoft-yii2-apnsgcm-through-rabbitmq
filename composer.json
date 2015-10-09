@@ -12,7 +12,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bryglen/yii2-apns-gcm": "~1.0.2",
+        "bryglen/yii2-apns-gcm": "*",
         "webtoucher/yii2-amqp": "*"
     },
     "autoload": {
